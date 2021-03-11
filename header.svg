@@ -2,7 +2,7 @@
 
 <svg fill="none" viewBox="0 0 1500 500" width="1500" height="500" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
+		<div xmlns="http://www.w3.org/1999/xhtml" class="root">
 			<style>
 				@namespace "http://www.w3.org/1999/xhtml";
 
@@ -20,7 +20,7 @@
 					box-sizing: border-box;
 					margin-top: 0;
 					margin-bottom: 0;
-					font-size: 24px;
+					font-size: 48px;
 					font-weight: 600;
 					color: var(--text-color);
 				}
@@ -40,14 +40,16 @@
 					color: var(--text-color);
 					--main-bg-color: var(--bg-primary-color);
 					background: var(--main-bg-color);
-					max-width: 900px;
 					width: 100%;
-					height: 100%;
 				}
 				div div {
 					margin-right: auto !important;
 					margin-left: auto !important;
-
+				}
+				.container {
+					display: flex;
+					align-items: center;
+					padding: 1em;
 				}
 				h3 {
 					--collatz-stroke-color: #444d56;
@@ -62,16 +64,35 @@
 					--main-bg-color: var(--bg-primary-color);
 					box-sizing: border-box;
 					margin-top: 0;
-					font-size: 20px;
+					font-size: 40px;
 					font-weight: 600;
 					color: var(--text-color);
 					margin-bottom: 16px;
 				}
-
+				/* h2, h3 {
+					width: 66%;
+				} */
+				img {
+					box-sizing: border-box;
+					border-style: none;
+					border-radius: 50% !important;
+					margin-bottom: 16px !important;
+					/* width: 150px; */
+					height: 100%;
+				}
+				.root, .container {
+					height: 500px;
+				}
 			</style>
-			<div>
-				<h2>Jason Manuel</h2>
-				<h3>Programmer, CS Student, Grand Challenges Scholar</h3>
+			<div class="container">
+				<div>
+					<h2>Jason Manuel</h2>
+					<h3>Programmer, CS Student, Grand Challenges Scholar</h3>
+				</div>
+				<!-- NOTE: image from external URL does not work when svg is in an html
+				page as an img. Thus, the embed script is used to create a data URI of
+				the image. -->
+				<img src="{{./me.jpg}}"/>
 			</div>
 		</div>
 	</foreignObject>

@@ -1,5 +1,7 @@
 ## Hello there 👋
 
+![header](header.build.svg)
+
 I'm a rising junior at Arizona State University studying computer science. I'm an officer of the [Software Developers Association](https://thesoda.io). I like using code to create, and I believe in technology's ability to *do good things*. Outside of coding, I like games such as Thomas Was Alone and Civilization VI, [occasionally taking photos](https://unsplash.com/@photo_jam), math, and outer space.
 
 - 🔭 I’m currently working on a [transpiled concatenative language called Concat](https://github.com/jmanuel1/concat). [See updates on my progress!](https://twitter.com/JasonAManuel) Check out my [Mailspring plugin, Todoer](https://github.com/jmanuel1/todoer), too.
