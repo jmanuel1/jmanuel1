@@ -98,7 +98,7 @@
 			--sidebar-bg-color: var(--bg-secondary-color);
 			--sidebar-border-right: var(--border);
 			--collatz-node-fill-color: var(--sidebar-bg-color);
-			r: 24;
+			r: 36;
 			box-sizing: border-box;
 			color: var(--text-color);
 			stroke: var(--collatz-stroke-color);
@@ -137,7 +137,7 @@
 			--icon-color: #ffffff;
 			--text-color: white;
 			font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-			font-size: 14px;
+			font-size: 28px;
 			line-height: 1.5;
 			--body-bg-color: var(--bg-primary-color);
 			--sidebar-bg-color: var(--bg-secondary-color);
@@ -151,7 +151,25 @@
 		}
 	</style>
 	<rect width="100%" height="100%" style="fill: var(--bg-primary-color);"></rect>
-	<g id="plot"><line class="link" x1="84.06828513799103" y1="468.7763303856882" x2="4.409942146199585" y2="449.5899266265619" style="stroke-dasharray: none;"></line><line class="link" x1="4.409942146199585" y1="449.5899266265619" x2="7.789505993171452" y2="359.6586783922123" style="stroke-dasharray: none;"></line><line class="link" x1="7.789505993171452" y1="359.6586783922123" x2="97.38658730958345" y2="356.6155282718291" style="stroke-dasharray: none;"></line><line class="link" x1="97.38658730958345" y1="356.6155282718291" x2="181.79985965036948" y2="358.28299933501535" style="stroke-dasharray: none;"></line><line class="link" x1="181.79985965036948" y1="358.28299933501535" x2="234.23784671297284" y2="283.61674524471914" style="stroke-dasharray: none;"></line><line class="link" x1="234.23784671297284" y1="283.61674524471914" x2="260.0133241950234" y2="173.48721794007562" style="stroke-dasharray: none;"></line><line class="link" x1="260.0133241950234" y1="173.48721794007562" x2="170.89982875982201" y2="166.80021528131675" style="stroke-dasharray: none;"></line><line class="link" x1="260.0133241950234" y1="173.48721794007562" x2="186.29947930369528" y2="95.65518759220252" style="stroke-dasharray: none;"></line><line class="link" x1="186.29947930369528" y1="95.65518759220252" x2="115.5055677539866" y2="71.98890141751673" style="stroke-dasharray: none;"></line><line class="link" x1="115.5055677539866" y1="71.98890141751673" x2="228.760820777596" y2="71.96724239702979" style="stroke-dasharray: none;"></line><line class="link" x1="228.760820777596" y1="71.96724239702979" x2="314.7613089812479" y2="71.98431734595714" style="stroke-dasharray: none;"></line><g><circle class="node" id="1" cx="84.06828513799103" cy="468.7763303856882" r="24"></circle><text x="84.06828513799103" y="468.7763303856882" text-anchor="middle" dominant-baseline="central">1</text></g><g><circle class="node" id="2" cx="4.409942146199585" cy="449.5899266265619" r="24"></circle><text x="4.409942146199585" y="449.5899266265619" text-anchor="middle" dominant-baseline="central">2</text></g><g><circle class="node" id="4" cx="7.789505993171452" cy="359.6586783922123" r="24"></circle><text x="7.789505993171452" y="359.6586783922123" text-anchor="middle" dominant-baseline="central">4</text></g><g><circle class="node" id="8" cx="97.38658730958345" cy="356.6155282718291" r="24"></circle><text x="97.38658730958345" y="356.6155282718291" text-anchor="middle" dominant-baseline="central">8</text></g><g><circle class="node" id="16" cx="181.79985965036948" cy="358.28299933501535" r="24"></circle><text x="181.79985965036948" y="358.28299933501535" text-anchor="middle" dominant-baseline="central">16</text></g><g><circle class="node" id="5" cx="234.23784671297284" cy="283.61674524471914" r="24"></circle><text x="234.23784671297284" y="283.61674524471914" text-anchor="middle" dominant-baseline="central">5</text></g><g><circle class="node" id="10" cx="260.0133241950234" cy="173.48721794007562" r="24"></circle><text x="260.0133241950234" y="173.48721794007562" text-anchor="middle" dominant-baseline="central">10</text></g><g><circle class="node" id="20" cx="170.89982875982201" cy="166.80021528131675" r="24"></circle><text x="170.89982875982201" y="166.80021528131675" text-anchor="middle" dominant-baseline="central">20</text></g><g><circle class="node" id="3" cx="186.29947930369528" cy="95.65518759220252" r="24"></circle><text x="186.29947930369528" y="95.65518759220252" text-anchor="middle" dominant-baseline="central">3</text></g><g><circle class="node" id="6" cx="115.5055677539866" cy="71.98890141751673" r="24"></circle><text x="115.5055677539866" y="71.98890141751673" text-anchor="middle" dominant-baseline="central">6</text></g><g><circle class="node" id="12" cx="228.760820777596" cy="71.96724239702979" r="24"></circle><text x="228.760820777596" y="71.96724239702979" text-anchor="middle" dominant-baseline="central">12</text></g><g><circle class="node" id="24" cx="314.7613089812479" cy="71.98431734595714" r="24"></circle><text x="314.7613089812479" y="71.98431734595714" text-anchor="middle" dominant-baseline="central">24</text></g></g>
+	<g id="plot"><line class="link" x1="84.06828513799103" y1="468.7763303856882" x2="4.409942146199585" y2="449.5899266265619" style="stroke-dasharray: none;"></line><line class="link" x1="4.409942146199585" y1="449.5899266265619" x2="7.789505993171452" y2="359.6586783922123" style="stroke-dasharray: none;"></line><line class="link" x1="7.789505993171452" y1="359.6586783922123" x2="97.38658730958345" y2="356.6155282718291" style="stroke-dasharray: none;"></line><line class="link" x1="97.38658730958345" y1="356.6155282718291" x2="181.79985965036948" y2="358.28299933501535" style="stroke-dasharray: none;"></line>
+	<line class="link" x1="181.79985965036948" y1="358.28299933501535" x2="234.23784671297284" y2="283.61674524471914" style="stroke-dasharray: none;"></line>
+	<!-- 5 to 10 -->
+	<line class="link" x1="234.23784671297284" y1="283.61674524471914" x2="300" y2="173.48721794007562" style="stroke-dasharray: none;"></line>
+	<!-- 20 to 10 -->
+	<line class="link" x1="100" y1="250" x2="300" y2="173.48721794007562" style="stroke-dasharray: none;"></line>
+	<!-- 3 to 10 -->
+	<line class="link" x1="186.29947930369528" y1="150" x2="300" y2="173.48721794007562" style="stroke-dasharray: none;"></line>
+	<line class="link" x1="186.29947930369528" y1="150" x2="115.5055677539866" y2="71.98890141751673" style="stroke-dasharray: none;"></line>
+	<line class="link" x1="115.5055677539866" y1="71.98890141751673" x2="300" y2="71.96724239702979" style="stroke-dasharray: none;"></line>
+	<line class="link" x1="300" y1="71.96724239702979" x2="400" y2="71.98431734595714" style="stroke-dasharray: none;"></line>
+	<g><circle class="node" id="1" cx="84.06828513799103" cy="468.7763303856882" r="24"></circle><text x="84.06828513799103" y="468.7763303856882" text-anchor="middle" dominant-baseline="central">1</text></g><g><circle class="node" id="2" cx="4.409942146199585" cy="449.5899266265619" r="24"></circle><text x="4.409942146199585" y="449.5899266265619" text-anchor="middle" dominant-baseline="central">2</text></g><g><circle class="node" id="4" cx="7.789505993171452" cy="359.6586783922123" r="24"></circle><text x="7.789505993171452" y="359.6586783922123" text-anchor="middle" dominant-baseline="central">4</text></g><g><circle class="node" id="8" cx="97.38658730958345" cy="356.6155282718291" r="24"></circle><text x="97.38658730958345" y="356.6155282718291" text-anchor="middle" dominant-baseline="central">8</text></g><g><circle class="node" id="16" cx="181.79985965036948" cy="358.28299933501535" r="24"></circle><text x="181.79985965036948" y="358.28299933501535" text-anchor="middle" dominant-baseline="central">16</text></g>
+	<g><circle class="node" id="5" cx="234.23784671297284" cy="283.61674524471914" r="24"></circle><text x="234.23784671297284" y="283.61674524471914" text-anchor="middle" dominant-baseline="central">5</text></g>
+	<g><circle class="node" id="10" cx="300" cy="173.48721794007562" r="24"></circle><text x="300" y="173.48721794007562" text-anchor="middle" dominant-baseline="central">10</text></g>
+	<g><circle class="node" id="20" cx="100" cy="250" r="24"></circle><text x="100" y="250" text-anchor="middle" dominant-baseline="central">20</text></g>
+	<g><circle class="node" id="3" cx="186.29947930369528" cy="150" r="24"></circle><text x="186.29947930369528" y="150" text-anchor="middle" dominant-baseline="central">3</text></g>
+	<g><circle class="node" id="6" cx="115.5055677539866" cy="71.98890141751673" r="24"></circle><text x="115.5055677539866" y="71.98890141751673" text-anchor="middle" dominant-baseline="central">6</text></g>
+	<g><circle class="node" id="12" cx="300" cy="71.96724239702979" r="24"></circle><text x="300" y="71.96724239702979" text-anchor="middle" dominant-baseline="central">12</text></g>
+	<g><circle class="node" id="24" cx="400" cy="71.98431734595714" r="24"></circle><text x="400" y="71.98431734595714" text-anchor="middle" dominant-baseline="central">24</text></g></g>
 
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml" class="root">
@@ -163,6 +181,8 @@
 				<!-- NOTE: image from external URL does not work when svg is in an html
 				page as an img. Thus, the embed script is used to create a data URI of
 				the image. -->
+				<!-- QUESTION: This image is already on my GitHub profile. Do I really
+				need it here? -->
 				<img src="{{./me.jpg}}"/>
 			</div>
 		</div>
