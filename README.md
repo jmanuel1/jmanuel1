@@ -13,3 +13,7 @@ I'm a software developer at Imagine Learning and a recent graduate of Arizona St
   - [LinkedIn](https://www.linkedin.com/in/jason-manuel)
   - [Website](http://jason-manuel.com)
 - ⚡ Fun fact: Once upon a time, I was on an ultimate frisbee team.
+
+[![My GitHub stats with stars earned, commits this year, PRs, issues, and
+projects contributed to this
+year](https://github-readme-stats.vercel.app/api?username=jmanuel1&count_private=true&show_icons=true&bg_color=24292e&title_color=ffffff&text_color=ffffff&icon_color=ffffff&hide_border=true&border_radius=0)](https://github.com/anuraghazra/github-readme-stats)
